@@ -1,0 +1,22 @@
+# --- Java / Maven ---
+target/
+*.class
+*.log
+*.jar
+*.war
+
+# --- IDE (IntelliJ IDEA) ---
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- Application Config ---
+**/application-local.yml
+**/application-prod.yml
+!application.yml
