@@ -11,7 +11,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class session {
+public class Session {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
