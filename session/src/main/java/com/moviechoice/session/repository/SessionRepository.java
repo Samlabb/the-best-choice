@@ -7,6 +7,7 @@ import java.util.Optional;
 import java.util.Optional;
 import java.util.UUID;
 
+@Repository
 public interface SessionRepository extends JpaRepository<Session, UUID> {
     //Ищем ссессию по уникальному коду
     Optional<Session> findByCode(String code);
